@@ -1,0 +1,7 @@
+# Durable KV Store - no external deps for core; optional for indexes
+# pytest for tests
+pytest>=7.0.0
+pytest-timeout>=2.0.0
+
+# Optional: for word embedding index
+# sentence-transformers  # uncomment if using embedding index
