@@ -93,7 +93,3 @@ c.SearchSimilar("foo", top_k=5)  # embedding similarity
 - WAL is written and fsync’d before responding; snapshot can be skipped with debug flag.
 - BulkSet is one WAL entry; kill during write gives all-or-nothing after restart.
 - For killing in tests/benchmarks use `process.kill()` (SIGKILL on Unix) or equivalent.
-
-## License
-
-MIT.
